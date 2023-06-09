@@ -38,4 +38,4 @@ Training/testing splits can be found in `train.txt` or `test_xxx.txt` which can 
 
 ## Benchmark Results
 
-The benchmark results in the paper can be accessed in this [link](). [This evaluation tool]() is used to evaluate all saliency results.
+The benchmark results in the paper can be accessed in this [link](). This [evaluation tool]() is used to measure all saliency results.
