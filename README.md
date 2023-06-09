@@ -19,7 +19,7 @@ Download the `DViSal` [dataset](https://github.com/DVSOD/DVSOD-DViSal), which is
 ```
 DViSal_dataset/
 ├─ train.txt
-├─ test_all.txt
+├─ test_xxx.txt
 │ ···
 ├─ data/
 │  ├─ video1/
@@ -34,4 +34,8 @@ DViSal_dataset/
 ···
 ```
 
-Training/testing splits can be found in `train.txt` or `test_all.txt` which can be downloaded using the above [link](xxx) as well.
+Training/testing splits can be found in `train.txt` or `test_xxx.txt` which can be downloaded using the above [link](xxx) as well.
+
+## Benchmark Results
+
+The benchmark results in the paper can be accessed in this [link](). [This evaluation tool]() is used to evaluate all saliency results.
