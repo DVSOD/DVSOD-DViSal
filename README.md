@@ -41,7 +41,7 @@ Training/testing/validation splits can be found in `train.txt`, `test_xxx.txt` o
 
 The benchmark results in the paper can be accessed in this [link](). This [evaluation tool]() is used to measure all saliency results.
 
-## Reference
+## References
 
 DViSal dataset is based on diverse video sources, including CDTB, PTB, People, Scene, DET, Tracklam and Track3D. They are annotated and adjusted to better fit the DVSOD task. If you use the DViSal dataset, the citations of seven source datasets mentioned is strongly recommended.
 
