@@ -29,6 +29,14 @@ DViSal_dataset/
 │  │  │  ├─ 00000002.jpg
 │  │  ├─ Depth/
 │  │  │  ├─ 00000001.png
+│  │  ├─ GT/
+│  │  │  ├─ 00000001.png
+│  │  ├─ GT_edge/
+│  │  │  ├─ 00000001.png
+│  │  ├─ Instance/
+│  │  │  ├─ 00000001.npy
+│  │  ├─ Scribble/
+│  │  │  ├─ 00000001.npy
 │  │
 │  ├─ video2/
 │  │  ├─ RGB/
