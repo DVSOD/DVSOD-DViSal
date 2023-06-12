@@ -14,7 +14,7 @@ DViSal comprises 237 RGB-D videos at a frame rate of 25 f/s, including 175,442 R
 
 ## Getting Started
 
-Download the `DViSal` [dataset](https://github.com/DVSOD/DVSOD-DViSal), which is structured as follows:
+Download the `DViSal` [dataset](https://github.com/DVSOD/DVSOD-DViSal) (Google Drive), which is structured as follows:
 
 ```
 DViSal_dataset/
