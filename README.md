@@ -37,6 +37,8 @@ DViSal_dataset/
 │  │  │  ├─ 00000001.npy
 │  │  ├─ Scribble/
 │  │  │  ├─ 00000001.npy
+│  │  ├─ BBox/
+│  │  │  ├─ 00000001.txt
 │  │
 │  ├─ video2/
 │  │  ├─ RGB/
