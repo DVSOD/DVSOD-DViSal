@@ -53,7 +53,7 @@ The benchmark results in the paper can be accessed in this [link](https://drive.
 
 ## References
 
-DViSal dataset is based on diverse video sources, including CDTB, PTB, People, Scene, DET, Tracklam and Track3D. They are annotated and adjusted to better fit the DVSOD task. If you use the DViSal dataset, the citations of seven source datasets mentioned is strongly recommended.
+DViSal dataset is based on diverse video sources, including [CDTB](https://votchallenge.net/vot2019/dataset.html), [PTB](https://tracking.cs.princeton.edu/dataset.html), [People](http://www2.informatik.uni-freiburg.de/~spinello/RGBD-dataset.html), [Scene](https://rgbd-dataset.cs.washington.edu/dataset/rgbd-scenes-v2/), [DET](https://github.com/xiaozai/DeT), [Tracklam](http://tracklam.informatik.uni-freiburg.de/) and [Track3D](https://github.com/yjybuaa/Track-it-in-3D). They are annotated and adjusted to better fit the DVSOD task. If you use the DViSal dataset, the citations of seven source datasets mentioned is strongly recommended.
 
 The annotations provided in this dataset are licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/). These annotations are released for non-commercial research purpose only.
 
