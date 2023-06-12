@@ -39,7 +39,7 @@ Training/testing/validation splits can be found in `train.txt`, `test_xxx.txt` o
 
 ## Benchmark Results
 
-The benchmark results in the paper can be accessed in this [link](). This [evaluation tool]() is used to measure all saliency results.
+The benchmark results in the paper can be accessed in this [link](https://drive.google.com/file/d/1WH6WLkRmnFaybgtS8vgWXnIwZ52xBqnQ/view?usp=sharing). This [evaluation tool](https://github.com/DVSOD/DVSOD-Evaluation) is used to measure all saliency results.
 
 ## References
 
