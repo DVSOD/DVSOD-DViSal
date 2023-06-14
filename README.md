@@ -45,7 +45,7 @@ DViSal_dataset/
 ···
 ```
 
-Training/testing/validation splits can be found in `train.txt`, `test_xxx.txt` or `val.txt` which can be downloaded using the above [link](xxx) as well.
+Training/testing/validation splits can be found in `train.txt`, `test_xxx.txt` or `val.txt` which can be downloaded using the above [link](xxx) as well. (Note: Bounding boxes are saved in the format of ' x_min, y_min, x_max, y_max '.)
 
 ## Benchmark Results
 
