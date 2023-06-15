@@ -14,7 +14,7 @@ DViSal comprises 237 RGB-D videos at a frame rate of 25 f/s, including 175,442 R
 
 ## Getting Started
 
-Download the `DViSal` [dataset](https://github.com/DVSOD/DVSOD-DViSal) (Google Drive), which is structured as follows:
+Download the `DViSal` [dataset](https://drive.google.com/file/d/16tkVx1A_yaOEaVZOMdUpMb95nnXbY0QO/view?usp=sharing) (Google Drive), which is structured as follows:
 
 ```
 DViSal_dataset/
@@ -45,7 +45,7 @@ DViSal_dataset/
 ···
 ```
 
-Training/testing/validation splits can be found in `train.txt`, `test_xxx.txt` or `val.txt` which can be downloaded using the above [link](xxx) as well. (Note: Bounding boxes are saved in the format of ' x_min, y_min, x_max, y_max '.)
+Training/testing/validation splits can be found in `train.txt`, `test_xxx.txt` or `val.txt` which can be downloaded using the above [link](https://drive.google.com/file/d/16tkVx1A_yaOEaVZOMdUpMb95nnXbY0QO/view?usp=sharing) as well. (Note: Bounding boxes are saved in the format of ' x_min, y_min, x_max, y_max '.)
 
 ## Benchmark Results
 
