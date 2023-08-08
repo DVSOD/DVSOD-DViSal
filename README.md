@@ -47,6 +47,9 @@ DViSal_dataset/
 
 Training/testing/validation splits can be found in `train.txt`, `test_xxx.txt` or `val.txt` which can be downloaded using the above [link](https://drive.google.com/file/d/16tkVx1A_yaOEaVZOMdUpMb95nnXbY0QO/view?usp=sharing) as well. (Note: Bounding boxes are saved in the format of ' x_min, y_min, x_max, y_max '.)
 
+> **Additional Resources**  
+We also provide the category information for each annotated salient instance, which can be accessed [here](https://drive.google.com/file/d/1Zf5HTGpm3fIcoDHq41ItQeqRMq44uK7o/view?usp=sharing). We hope that this will encourage further exploration beyond the DVSOD task.
+
 ## Benchmark Results
 
 The benchmark results in the paper can be accessed in this [link](https://drive.google.com/file/d/1WH6WLkRmnFaybgtS8vgWXnIwZ52xBqnQ/view?usp=sharing). This [evaluation tool](https://github.com/DVSOD/DVSOD-Evaluation) is used to measure all saliency results.
