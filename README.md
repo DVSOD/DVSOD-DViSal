@@ -51,72 +51,8 @@ Training/testing/validation splits can be found in `train.txt`, `test_xxx.txt` o
 
 The benchmark results in the paper can be accessed in this [link](https://drive.google.com/file/d/1WH6WLkRmnFaybgtS8vgWXnIwZ52xBqnQ/view?usp=sharing). This [evaluation tool](https://github.com/DVSOD/DVSOD-Evaluation) is used to measure all saliency results.
 
-## References
+## Licence
 
-DViSal dataset is based on diverse video sources, including [CDTB](https://votchallenge.net/vot2019/dataset.html), [PTB](https://tracking.cs.princeton.edu/dataset.html), [People](http://www2.informatik.uni-freiburg.de/~spinello/RGBD-dataset.html), [Scene](https://rgbd-dataset.cs.washington.edu/dataset/rgbd-scenes-v2/), [DET](https://github.com/xiaozai/DeT), [Tracklam](http://tracklam.informatik.uni-freiburg.de/) and [Track3D](https://github.com/yjybuaa/Track-it-in-3D). They are annotated and adjusted to better fit the DVSOD task. If you use the DViSal dataset, the citations of seven source datasets mentioned are strongly recommended.
+The annotations provided in this dataset are licensed under a [GPL v3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html#license-text). This license can make sure that you have the freedom to copy and distribute copies of free source. Note that our annotations are released for non-commercial research purpose only.
 
-The annotations provided in this dataset are licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/). These annotations are released for non-commercial research purpose only.
 
-```
-@inproceedings{lukezic2019cdtb,
-  title={Cdtb: A color and depth visual object tracking dataset and benchmark},
-  author={Lukezic, Alan and Kart, Ugur and Kapyla, Jani and Durmush, Ahmed and Kamarainen, Joni-Kristian and Matas, Jiri and Kristan, Matej},
-  booktitle={ICCV},
-  pages={10013--10022},
-  year={2019}
-}
-```
-```
-@inproceedings{song2013tracking,
-  title={Tracking revisited using RGBD camera: Unified benchmark and baselines},
-  author={Song, Shuran and Xiao, Jianxiong},
-  booktitle={ICCV},
-  pages={233--240},
-  year={2013}
-}
-```
-```
-@inproceedings{spinello2011people,
-  title={People detection in RGB-D data},
-  author={Spinello, Luciano and Arras, Kai O},
-  booktitle={IROS},
-  pages={3838--3843},
-  year={2011}
-}
-```
-```
-@inproceedings{lai2014unsupervised,
-  title={Unsupervised feature learning for 3d scene labeling},
-  author={Lai, Kevin and Bo, Liefeng and Fox, Dieter},
-  booktitle={ICRA},
-  pages={3050--3057},
-  year={2014}
-}
-```
-```
-@inproceedings{yan2021depthtrack,
-  title={Depthtrack: Unveiling the power of rgbd tracking},
-  author={Yan, Song and Yang, Jinyu and K{\"a}pyl{\"a}, Jani and Zheng, Feng and Leonardis, Ale{\v{s}} and K{\"a}m{\"a}r{\"a}inen, Joni-Kristian},
-  booktitle={ICCV},
-  pages={10725--10733},
-  year={2021}
-}
-```
-```
-@inproceedings{caselitz2020camera,
-  title={Camera tracking in lighting adaptable maps of indoor environments},
-  author={Caselitz, Tim and Krawez, Michael and Sundram, Jugesh and Van Loock, Mark and Burgard, Wolfram},
-  booktitle={ICRA},
-  pages={3334--3340},
-  year={2020}
-}
-```
-```
-@inproceedings{yang2022towards,
-  title={Towards Generic 3D Tracking in RGBD Videos: Benchmark and Baseline},
-  author={Yang, Jinyu and Zhang, Zhongqun and Li, Zhe and Chang, Hyung Jin and Leonardis, Ale{\v{s}} and Zheng, Feng},
-  booktitle={ECCV},
-  pages={112--128},
-  year={2022}
-}
-```
