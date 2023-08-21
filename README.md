@@ -48,8 +48,8 @@ DViSal_dataset/
 Training/testing/validation splits can be found in `train.txt`, `test_xxx.txt` or `val.txt` which can be downloaded using the above [link](https://drive.google.com/file/d/18IYSbaBWazU5MQtgvPoQu2JoHd2HOUPE/view?usp=sharing) as well. (Note: Bounding boxes are saved in the format of ' x_min, y_min, x_max, y_max '.)
 
 > **Additional Resources**  
-(Category Info) We provide the category information for each annotated salient instance, which can be accessed [here](https://drive.google.com/file/d/1Zf5HTGpm3fIcoDHq41ItQeqRMq44uK7o/view?usp=sharing). There are 76 salient categories in total, including people, box, bag, doll, chair, bicycle, car, ..., and yogaball. We hope that this information will encourage further exploration beyond the DVSOD task.     
-(3D Point Cloud) We additionally provide a conversion [code](https://github.com/DVSOD/DVSOD-DViSal/blob/main/rgbd2point.py) that can project rgbd image into the 3D
+· (Category Info) We provide the category information for each annotated salient instance, which can be accessed [here](https://drive.google.com/file/d/1Zf5HTGpm3fIcoDHq41ItQeqRMq44uK7o/view?usp=sharing). There are 76 salient categories in total, including people, box, bag, doll, chair, bicycle, car, ..., and yogaball. We hope that this information will encourage further exploration beyond the DVSOD task.     
+· (3D Point Cloud) We additionally provide a conversion [code](https://github.com/DVSOD/DVSOD-DViSal/blob/main/rgbd2point.py) that can project rgbd image into the 3D
 space when camera’s intrinsic parameters are available. We anticipate that this endeavor will benefit more downstream tasks, such as point cloud saliency detection, or tracking.
 
 ## Benchmark Results
