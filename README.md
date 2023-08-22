@@ -49,8 +49,8 @@ Training/testing/validation splits can be found in `train.txt`, `test_xxx.txt` o
 
 > **Additional Resources**  
 · (Category Info) We provide the category information for each annotated salient instance, which can be accessed [here](https://drive.google.com/file/d/1Zf5HTGpm3fIcoDHq41ItQeqRMq44uK7o/view?usp=sharing). There are 76 salient categories in total, including people, box, bag, doll, chair, bicycle, car, ..., and yogaball. We hope that this information will encourage further exploration beyond the DVSOD task.     
-· (3D Point Cloud) We additionally provide a conversion [code](https://github.com/DVSOD/DVSOD-DViSal/blob/main/rgbd2point.py) that can project rgbd image into the 3D
-space when camera’s intrinsic parameters are available. We anticipate that this endeavor will benefit more downstream tasks, such as point cloud saliency detection, or tracking.
+· (3D Point Cloud) We additionally provide a conversion [code](https://github.com/DVSOD/DVSOD-DViSal/blob/main/rgbd2point.py) that can project rgbd image into the 3D space. We anticipate that this endeavor will benefit more downstream tasks, such as point cloud saliency detection, or tracking.     
+· (Synthetic Data) Inspired by the reviewer's suggestion, a intriguing and promising direction is to explore advanced photorealistic rendering technology to expand the diversity and volume of the dataset, thereby improving the generalization of models. To the end, we create an indoor simulated RGB-D video SOD [dataset](https://drive.google.com/file/d/1WKIipWz7srA-jHta5OlWqskpaT2JHux7/view?usp=sharing) through BlenderProc. It encompasses 40 RGB-D videos paired with a set of 2,060 corresponding ground-truth masks. We anticipate that this endeavor will contribute positively to the investigation of the Sim2real challenge.
 
 ## Benchmark Results
 
