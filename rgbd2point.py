@@ -15,16 +15,16 @@ plt.title('depth image')
 plt.imshow(rgbd_image.depth)
 plt.show()
 
-# The RGBD image can be converted into a point cloud, given a set of camera parameters.
-# To be specific, some available camera intrinsic parameters are provided below:
+# The RGBD image can be converted into a point cloud, given a set of camera intrinsic parameters.
+# To be specific, they are provided below:
 '''
 RGB-D People: http://www2.informatik.uni-freiburg.de/~spinello/RGBD-dataset.html
 RGB-D Scene: https://rgbd-dataset.cs.washington.edu/dataset/rgbd-scenes-v2/
 PTB: https://tracking.cs.princeton.edu/dataset.html
-CDTB: Calibration parameters will be provided once requested
+CDTB: Calibration parameters requires permission from the authors.
 DET: Not provided. Because the main authors have left the university. (For reference purposes but not precise: https://www.intelrealsense.com/depth-camera-d415/)
 Tracklam: http://tracklam.informatik.uni-freiburg.de/
-Track3D: Not provided. But the authors directly provide the point cloud in https://github.com/yjybuaa/Track-it-in-3D. 
+Track3D: https://github.com/yjybuaa/Track-it-in-3D  
 '''
 pcd = o3d.geometry.PointCloud.create_from_rgbd_image(rgbd_image,
                                                      o3d.camera.PinholeCameraIntrinsicParameters.PrimeSenseDefault)
