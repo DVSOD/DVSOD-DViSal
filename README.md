@@ -58,6 +58,6 @@ The benchmark results in the paper can be accessed in this [link](https://drive.
 
 ## Licence
 
-The annotations provided in this dataset are licensed under a [GPL v3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html#license-text). This license can make sure that you have the freedom to copy and distribute copies of free source. Note that our annotations are released for non-commercial research purpose only.
+The annotations provided in this dataset are under this [license](https://www.gnu.org/licenses/gpl-3.0.en.html#license-text). This license can make sure that you have the freedom to copy and distribute copies of free source. Note that our annotations are released for non-commercial research purpose only.
 
 
