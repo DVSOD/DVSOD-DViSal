@@ -56,6 +56,18 @@ Training/testing/validation splits can be found in `train.txt`, `test_xxx.txt` o
 
 The benchmark results in the paper can be accessed in this [link](https://drive.google.com/file/d/1WH6WLkRmnFaybgtS8vgWXnIwZ52xBqnQ/view?usp=sharing). This [evaluation tool](https://github.com/DVSOD/DVSOD-Evaluation) is used to measure all saliency results.
 
+## Citation
+
+```
+@InProceedings{li2023dvsod,
+title={DVSOD: RGB-D Video Salient Object Detection},
+author={Li, Jingjing and Ji, Wei and Wang, Size and Li, Wenbo and Cheng, Li},
+booktitle={Advances in Neural Information Processing Systems},
+year={2023},
+month={December}
+}
+```
+
 ## Licence
 
 The annotations provided in this dataset are under this [license](https://www.gnu.org/licenses/gpl-3.0.en.html#license-text). This can make sure that you have the freedom to copy and distribute copies of free source. Note that our annotations are released for non-commercial research purpose only.
